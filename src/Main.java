@@ -11,5 +11,8 @@ public class Main {
             // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
             System.out.println("i = " + i);
         }
+
+        Student student = new Student(1, "Kacper", "Dupsko");
+        System.out.println(student.getFullName());
     }
 }
