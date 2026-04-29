@@ -12,4 +12,5 @@ public class Student {
     public String getFullName() {
         return name + " " + surname;
     }
+    public String getName() { return name; }
 }
